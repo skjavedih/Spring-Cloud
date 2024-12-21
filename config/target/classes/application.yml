@@ -1,0 +1,14 @@
+server:
+  port: 8888  # Config Server will run on port 8888
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/skjavedih/basic-spring-cloud-example
+          searchPaths:
+          - spring-cloud-master-config
+          cloneOnStart: true

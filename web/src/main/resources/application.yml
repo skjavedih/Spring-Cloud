@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: web
+
+    logging:
+      level:
+        org.springframework.web: DEBUG
+        org.springframework.cloud.gateway: DEBUG
+        org.springframework.http.client: DEBUG
