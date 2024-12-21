@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/skjavedih/basic-spring-cloud-example
+          uri: https://github.com/skjavedih/Spring-Cloud
           searchPaths:
           - spring-cloud-master-config
           cloneOnStart: true
